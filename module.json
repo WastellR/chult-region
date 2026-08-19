@@ -1,0 +1,48 @@
+{
+  "id": "chult-region",
+  "title": "Chult - Region Map Pack",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>A hexcrawl region map suitable for Tomb of Annihilation, or any jungle-themed campaign of your own. Complete with animated backgrounds, automatic hexcrawl tools, and dynamic weather.</p>",
+  "authors": [
+    {
+      "name": "CORE Games",
+      "url": "https://merlinvtt.com",
+      "discord": "@Robomoo#5070",
+      "flags": {}
+    }
+  ],
+  "url": "https://www.patreon.com/MerlinVTT",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Chult Region Map",
+      "path": "packs/pack-1",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "chult.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "merlins-miscellany",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
