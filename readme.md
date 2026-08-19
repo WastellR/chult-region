@@ -1,6 +1,6 @@
 **An animated map pack compatible with Tomb of Annihilation - or any jungle-themed campaign of your own.**
 
-![Screenshot](https://github.com/WastellR/chult-region/Screenshot_1.png)
+![Screenshot](Screenshot_1.png)
 
 The module contains:
 - One hexcrawl map of Chult, with four animated variants (more coming soon).
